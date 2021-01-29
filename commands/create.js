@@ -2,7 +2,6 @@ const backup = require('discord-backup');
 const config = require('../config.json');
 const save = require("save-file");
 
-backup.setStorageFolder("./backups")
 
 exports.run = async (client, message, args) => {
 
